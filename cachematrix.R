@@ -15,8 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
           }
 }
 
-
-## It uses makeCacheMatrix, where checks if inverse was calculated, then this function will retrieve the inverse from the cache.
+## Function uses makeCacheMatrix, where checks if inverse was calculated, then this function will retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
         cacheInverse <- x$getInverse()
